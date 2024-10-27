@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid auto</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      ul {
+        display: grid;
+        list-style: none;
+
+        /*grid-auto-flow: row;
+        grid-auto-rows: 1fr 2fr 3fr;*/
+
+        grid-auto-flow: column; /*FLUXO AUTOMATICO PARA COLUNA*/
+        /*grid-auto-columns: 50px 100px 200px;*/
+        grid-auto-columns: max-content; /*PEGA APENAS O CONTEUDO SEM ESPAÇO*/
+        gap: 16px;
+
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Serviços</li>
+      <li>Teste</li>
+      <li>Contact</li>
+    </ul>
+  </body>
+</html>
