@@ -27,12 +27,16 @@
   --subtitle: 400 20px/120% var(--font-family-2);
 
   --font-family-3: "Maven Pro", sans-serif;
-  --text-md: 400 16px/140% var(--font-family-3);
-  --text-sm: 400 14px/140% var(--font-family-3);
+  --text-md-m: 400 16px/140% var(--font-family-3);
+  --text-sm-m: 400 14px/140% var(--font-family-3);
 }
 
 body {
   width: 100%;
   margin: 0 auto;
   background-color: var(--gray-200);
+}
+
+a {
+  text-decoration: none;
 }

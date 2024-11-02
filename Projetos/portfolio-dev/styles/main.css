@@ -65,7 +65,7 @@ section#one {
 }
 
 #text-sm p {
-  font: var(--text-sm);
+  font: var(--text-sm-m);
   color: var(--gray-500);
   padding-inline: 4px;
 }
@@ -98,7 +98,7 @@ section#one {
 
 #card h3 {
   margin-top: 20px;
-  font: var(--title-sm);
+  font: var(--title-sm-m);
   color: var(--gray-600);
 }
 
